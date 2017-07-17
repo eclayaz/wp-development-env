@@ -78,7 +78,7 @@ Setting the environment
     gulp --env production
 ```
 
-###Configure WordPress Coding Standards for PHP_CodeSniffer using Composer
+### Configure WordPress Coding Standards for PHP_CodeSniffer using Composer
 
 Standards can be installed with the Composer dependency manager:
 ```
