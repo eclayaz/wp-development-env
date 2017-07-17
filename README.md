@@ -88,3 +88,12 @@ Standards can be installed with the Composer dependency manager:
 * Install PHP_CodeSniffer.
 * Register WordPress standards in PHP_CodeSniffer configuration.
 * Make phpcs command available from wpcs/vendor/bin.
+
+How to setup a theme folder using this repository
+==
+* First, you need to install Gulp globally in your system
+    ```http://gulpjs.com/```
+* Create a new folder in as 'wp-development' in ```wp-content/themes``` directory 
+* Clone this repository into the 'wp-development' folder
+* Open console in the 'wp-development' folder and run following command 
+    ```npm update```
