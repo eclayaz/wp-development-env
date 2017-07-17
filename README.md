@@ -77,3 +77,16 @@ Setting the environment
 ```
     gulp --env production
 ```
+
+###Configure WordPress Coding Standards for PHP_CodeSniffer using Composer
+
+Standards can be installed with the Composer dependency manager:
+```
+    composer create-project wp-coding-standards/wpcs --no-dev
+```
+**Running this command will:**
+
+* Install WordPress standards into wpcs directory.
+* Install PHP_CodeSniffer.
+* Register WordPress standards in PHP_CodeSniffer configuration.
+* Make phpcs command available from wpcs/vendor/bin.
