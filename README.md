@@ -41,8 +41,7 @@ Getting Started with Underscores
 ---
 If you want to keep it simple, head over to http://underscores.me and generate your _s based theme from there. You just input the name of the theme you want to create, click the "Generate" button, and you get your ready-to-awesomize starter theme.
 
-gulp-environment
----
+### gulp-environment
 Adds easy environment configuration and conditional piping to Gulp
 By default, the library defines two environments: development and production.
 In this project we use the same development and production environments 
@@ -69,8 +68,7 @@ css and js minifications are only happen in production environments.
     .pipe(production(uglify()))
 ```
 
-Setting the environment
---
+### Setting the environment
 ```
     gulp --env development
 ```
