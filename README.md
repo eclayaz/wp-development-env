@@ -72,8 +72,8 @@ css and js minifications are only happen in production environments.
 Setting the environment
 --
 ```
-    gulp build --env development
+    gulp --env development
 ```
 ```
-    gulp build --env production
+    gulp --env production
 ```
